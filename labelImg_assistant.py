@@ -5,6 +5,9 @@ import pynput
 from pynput import mouse
 from pynput.mouse import Button, Controller
 
+# # # 需要按情况修改 # # #
+next_img_pos = (81, 266)
+
 
 def on_move(x, y):
     print('Pointer moved to {0}'.format(
@@ -33,7 +36,7 @@ def action(*add):
                 # 点击下一张
                 mouse2 = Controller()
                 before_pos_x, before_pos_y = mouse2.position
-                mouse2.position = (81, 266)
+                mouse2.position = next_img_pos
                 mouse2.click(pynput.mouse.Button.left)
                 mouse2.position = (before_pos_x, before_pos_y)
                 # 画框

@@ -1,6 +1,6 @@
 # labelImg_assistant
-辅助labelImg进行快速标注的工具 
-使用时只需要一直选框即可（同一label），不需要按“d”键
+辅助labelImg进行快速标注的工具  
+使用时只需要一直选框即可（同一label），不需要按“d”键  
 # 使用前提：
 安装所需第三方库：  
 pywinauto  

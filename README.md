@@ -3,8 +3,8 @@
 使用时只需要一直选框即可（同一label），不需要按“d”键  
 # 使用前提：
 安装所需第三方库：  
-pywinauto  ：python -m pip install -U pyautogui  
-pynput  
+pywinauto：python -m pip install -U pyautogui  
+pynput：https://blog.csdn.net/baiyang10010/article/details/103204888  
 # 使用流程：
 ### 使用前调试：  
 1.全屏化labelImg软件  
